@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Suhaila ElGohry | Portfolio</title>
+    <link rel="icon" type="image/jpg" href="images/logo.jpg">
+    <link
+      rel="icon"
+      href="https://github.com/esraa-emary/photos/blob/main/Portfolio/Screenshot_133.png?raw=true"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="bg-dark py-3 mb-4">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="#home" class="logo text-decoration-none"
+          >Suhaila <span>ElGohry</span></a
+        >
+
+        <!-- Desktop Navigation -->
+        <nav class="d-none d-lg-block">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#certificates" class="nav-link">Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="d-lg-none">
+          <button
+            class="btn btn-outline-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu"
+          >
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Offcanvas Menu -->
+      <div
+        class="offcanvas offcanvas-end bg-dark"
+        tabindex="-1"
+        id="mobileMenu"
+        aria-labelledby="mobileMenuLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-light" id="mobileMenuLabel">Menu</h5>
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#certificates" class="nav-link">Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Home Section -->
+      <section id="home" class="mb-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-start">
+            <h1>Hi, It's <span>Suhaila</span></h1>
+            <h3>
+              I'm a
+              <span class="typing-container">
+                <span id="animated-text"></span>
+                <span class="cursor"></span>
+              </span>
+            </h3>
+
+            <p>
+              I'm a second-year student at the Faculty of Computers and
+              Artificial Intelligence at Cairo University, where I am deeply
+              immersed in the world of AI. As I continue my studies, I'm eager
+              to push the boundaries of what AI can achieve and to be at the
+              forefront of technological advancements that have a lasting
+              impact.
+            </p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/suhaila-elgohry/"
+                target="_blank"
+                class="social-icon"
+                ><i class="bx bxl-linkedin-square"></i
+              ></a>
+              <a
+                href="https://github.com/suhaila-elgohry"
+                target="_blank"
+                class="social-icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/suhaila_elgohry/"
+                target="_blank"
+                class="social-icon"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/suhaila.elgohry/"
+                target="_blank"
+                class="social-icon"
+                ><i class="bx bxl-facebook-square"></i
+              ></a>
+            </div>
+            <div class="d-flex gap-2" role="group" aria-label="Basic example">
+              <a href="https://drive.google.com/file/d/1wlQpPQ-REMeXMytF9N9ogpLihcmk47pT/view?usp=sharing" target="_blank" class="btn btn-primary rounded-pill"
+                >Resume</a
+              >
+              <a href="#contact" class="btn btn-outline-primary rounded-pill"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="moon-container">
+              <div class="moon">
+                <img
+                  src="images/WhatsApp Image 2025-08-18 at 20.44.45_b23357b4.jpg"
+                  alt="Profile"
+                  class="profile-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="mb-5">
+        <h2 class="section-title text-center mb-5">Experience</h2>
+        <div class="timeline position-relative">
+          <!-- University -->
+          <div class="timeline-item d-flex mb-5">
+            <div class="timeline-dot"></div>
+            <div
+              class="timeline-content card bg-dark text-white border-0 shadow-lg"
+            >
+              <div class="card-body">
+                <div class="timeline-date mb-2">2024 - Present</div>
+                <h3 class="card-title">Al Ryada University</h3>
+                <p class="card-text">
+                  Faculty of Computers and Artificial Intelligence.
+                </p>
+                <p class="card-text">Student — Expected Graduation: 2028.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- NTI -->
+          <div class="timeline-item d-flex mb-5">
+            <div class="timeline-dot"></div>
+            <div
+              class="timeline-content card bg-dark text-white border-0 shadow-lg"
+            >
+              <div class="card-body">
+                <div class="timeline-date mb-2">Jul 2025 - Aug 2025</div>
+                <h3 class="card-title">Web Developer Intern - NTI</h3>
+                <p class="card-text">
+                  Completed training in HTML, CSS, Bootstrap 5, and JavaScript.
+                </p>
+                <p class="card-text">
+                  Built a fully responsive e-commerce website project.
+                </p>
+                <p class="card-text">
+                  Gained hands-on experience in front-end development and UI/UX
+                  principles.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="mb-5">
+        <h2 class="section-title text-center mb-5 fw-bold display-6">Skills</h2>
+        <div class="row g-4">
+          <!-- Technical Skills -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <div class="card-body text-center">
+                <h4 class="card-title mb-4 fw-semibold">Technical Skills</h4>
+                <ul class="list-unstyled fs-5">
+                  <li class="mb-3">
+                    <i class="bx bxl-html5 text-danger fs-2"></i>
+                    <span class="fw-semibold">HTML</span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="bx bxl-css3 text-primary fs-2"></i>
+                    <span class="fw-semibold">CSS</span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="bx bxl-bootstrap text-purple fs-2"></i>
+                    <span class="fw-semibold">Bootstrap</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming Languages -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <div class="card-body text-center">
+                <h4 class="card-title mb-4 fw-semibold">
+                  Programming Languages
+                </h4>
+                <ul class="list-unstyled fs-5">
+                  <li class="mb-3">
+                    <i class="bx bxl-c-plus-plus text-info fs-2"></i>
+                    <span class="fw-semibold">C++</span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="bx bxl-java text-danger fs-2"></i>
+                    <span class="fw-semibold">Java</span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="bx bxl-python text-success fs-2"></i>
+                    <span class="fw-semibold">Python</span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="bx bxl-javascript text-warning fs-2"></i>
+                    <span class="fw-semibold">JavaScript</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <div class="card-body text-center">
+                <h4 class="card-title mb-4 fw-semibold">Soft Skills</h4>
+                <ul class="list-unstyled fs-5">
+                  <li class="mb-3">
+                    <i class="bx bx-group text-success fs-2"></i>
+                    <span class="fw-semibold">Teamwork</span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="bx bx-brain text-warning fs-2"></i>
+                    <span class="fw-semibold">Problem Solving</span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="bx bx-chat text-info fs-2"></i>
+                    <span class="fw-semibold">Communication</span>
+                  </li>
+                  <li class="mb-3">
+                    <i class="bx bx-crown text-purple fs-2"></i>
+                    <span class="fw-semibold">Leadership</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="mb-5">
+        <h1 class="section-title">Projects</h1>
+        <div class="row g-4">
+          <!-- Merto Project -->
+          <div class="col-md-6">
+            <div class="card h-100">
+              <img
+                src="images/Metro.png"
+                class="card-img-top"
+                alt="Merto Project"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Merto – E-Commerce Website</h5>
+                <p class="card-text">
+                  A responsive e-commerce website built with HTML, CSS,
+                  Bootstrap 5, and JavaScript. Features: modern homepage,
+                  product grid, filtering, pagination, and dynamic product
+                  details page.
+                </p>
+                <a
+                  href="https://www.linkedin.com/posts/suhaila-elgohry_webdevelopment-frontenddeveloper-ecommercewebsite-activity-7363595739093987328-pNTO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIzLoUBoL3mRDk7myPdnM_YDQRHuUy4I8c"
+                  target="_blank"
+                  class="btn btn-primary me-2"
+                  >Details</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- GPA Tracker -->
+          <div class="col-md-6">
+            <div class="card h-100">
+              <img
+                src="images/GPA.png"
+                class="card-img-top"
+                alt="GPA Tracker"
+              />
+              <div class="card-body">
+                <h5 class="card-title">GPA Tracker</h5>
+                <p class="card-text">
+                  A Java-based desktop application that helps university
+                  students monitor, evaluate, and improve their academic
+                  performance efficiently. Built with
+                  <strong>Java, OOP, and Swing</strong>, it goes beyond simple
+                  GPA calculation to support smarter academic decisions.
+                </p>
+                <a
+                  href="https://www.linkedin.com/posts/suhaila-elgohry_rst-java-swing-activity-7347187490316783616-3q8N?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIzLoUBoL3mRDk7myPdnM_YDQRHuUy4I8c"
+                  target="_blank"
+                  class="btn btn-primary me-2"
+                  >Details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certificates Section -->
+      <section id="certificates" class="mb-5">
+        <h1 class="section-title">Certificates</h1>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img
+                src="images/Screenshot 2025-09-02 161518.png"
+                class="card-img-top"
+                alt="Web Designer"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Web Designer</h5>
+                <p class="card-text">
+                  From: National Telecommunication Institute (NTI)
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1KV4Am3_kXAe_TVPC5FaH6mkyU3WH_uac/view?usp=sharing"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img
+                src="images/Screenshot 2025-08-29 212121.png"
+                class="card-img-top"
+                alt="NVIDIA Deep Learning Institute (DLI)"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  Certificate of Competency — Getting Started with Deep Learning
+                </h5>
+                <p class="card-text">
+                  From: NVIDIA Deep Learning Institute (DLI)
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1-n8FpNTwkTgNMcipQEB1Rz1jUWI5E9q4/view?usp=sharing"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img
+                src="images/WhatsApp Image 2025-09-03 at 19.40.05_b6d370f7.jpg"
+                class="card-img-top"
+                alt="Intro to Programming using C++ certificate"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Intro to Programming using C++</h5>
+                <p class="card-text">From: Al Ryada University</p>
+                <a
+                  href="https://drive.google.com/file/d/111oJcrHfrkM3E_uFwXhvWnuKOLyuRjQI/view?usp=sharing"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="bg-dark py-4">
+      <div class="container text-center">
+        <p class="mb-3 fs-5">
+          Let's Work Together <br />
+          For More And More <br />
+          Innovation
+        </p>
+        <div class="mb-3">
+          <a
+            href="https://www.linkedin.com/in/suhaila-elgohry/"
+            target="_blank"
+            class="me-3 text-primary fs-4"
+          >
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a
+            href="https://github.com/suhailamahfouz"
+            target="_blank"
+            class="me-3 text-light fs-4"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/suhaila.algohry/?igsh=bGttMmxlZmExcXYx#"
+            target="_blank"
+            class="me-3 text-danger fs-4"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/Suhaila.Elgohry?rdid=FSSH4mnc6s1OrUG2&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FWxQUJTmx%2F#"
+            target="_blank"
+            class="text-primary fs-4"
+          >
+            <i class="bx bxl-facebook-square"></i>
+          </a>
+        </div>
+
+        <ul
+          class="list-unstyled d-flex justify-content-center gap-4 mb-3 flex-wrap"
+        >
+          <li><a href="#home" class="text-decoration-none">About Me</a></li>
+          <li>
+            <a href="#experience" class="text-decoration-none">Experience</a>
+          </li>
+          <li><a href="#experience" class="text-decoration-none">Skills</a></li>
+          <li><a href="#projects" class="text-decoration-none">Projects</a></li>
+          <li>
+            <a href="#certificates" class="text-decoration-none"
+              >Certificates</a
+            >
+          </li>
+        </ul>
+        <p class="text-muted">&copy; Suhaila ElGohry | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
