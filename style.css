@@ -38,8 +38,8 @@ header.scrolled {
 
 header .logo {
   color: var(--light-color);
-  font-family: Georgia, serif;
-  font-size: 1.8rem;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 1.3rem;
   font-weight: bold;
   transition: all 0.3s ease;
 }
