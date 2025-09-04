@@ -38,7 +38,7 @@ header.scrolled {
 
 header .logo {
   color: var(--light-color);
-  font-family: 'Tangerine', cursive;
+  font-family: Georgia, serif;
   font-size: 1.8rem;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -294,7 +294,7 @@ nav .nav-link.active::after {
 /* Timeline */
 .timeline {
   position: relative;
-  padding-left: 240px; /* مساحة أكبر للخط والنقطة */
+  padding-left: 240px; 
   margin-top: 2rem;
 }
 
@@ -322,7 +322,7 @@ nav .nav-link.active::after {
   background: var(--primary-color);
   border-radius: 50%;
   position: absolute;
-  left: 13px; /* النص على الخط */
+  left: 13px;
   top: 20px;
   z-index: 2;
   border: 2px solid var(--light-color);
@@ -345,13 +345,13 @@ nav .nav-link.active::after {
   box-shadow: 0 0 10px rgba(194, 24, 89, 0.5);
 }
 
-/* الكارد اللي فيه المحتوى */
+
 .timeline-content {
-  margin-left: 40px; /* تبعيد عن الخط */
+  margin-left: 40px; 
   border: 1px solid var(--primary-color);
   border-radius: 12px;
   padding: 15px;
-  background: #111; /* أسود غامق زي الصورة */
+  background: #111; 
   color: var(--light-color);
   box-shadow: 0 0 15px rgba(194, 24, 89, 0.3);
 }
@@ -446,7 +446,7 @@ footer .list li a:hover {
   border-radius: 3px;
 }
 
-/* Animation for text that fades in and out */
+
 @keyframes textFade {
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
@@ -474,9 +474,7 @@ footer .list li a:hover {
   }
 }
 
-/* Responsive Styles for Mobile */
 @media (max-width: 768px) {
-  /* ترتيب الصفحة الرئيسية */
   #home .row {
     flex-direction: column-reverse;
   }
@@ -490,7 +488,7 @@ footer .list li a:hover {
     margin-bottom: 2rem;
   }
 
-  /* تكبير النصوص قليلًا للقراءة */
+  
   #home h1 {
     font-size: 2.5rem;
   }
@@ -544,7 +542,7 @@ footer .list li a:hover {
     right: auto;
   }
 
-  /* الفوتر */
+
   footer .list {
     flex-direction: column;
     gap: 10px;
